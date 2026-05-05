@@ -1,38 +1,52 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 24px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-list {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 16px;
+}
+
+.user-list h2 {
+  margin-top: 0;
+}
+
+.user-list-error {
+  color: #b00020;
+}
+
+.user-profile {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  background-color: #fafafa;
+}
+
+.user-profile h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+}
+
+.user-profile p {
+  margin: 0 0 8px 0;
+  color: #444;
+}
+
+.user-profile small {
+  color: #888;
 }
